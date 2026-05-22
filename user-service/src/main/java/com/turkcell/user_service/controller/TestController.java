@@ -10,6 +10,7 @@ public class TestController {
 
     @GetMapping("/hello")
     public String helloWorld() {
-        return "Hello World from User Service";
+        return "Hello World from User Service"; // 8081 portundan get ıstegı aatmalıyım ö application.yaml dosyasından
+                                                // ayarladım server : 8081
     }
 }

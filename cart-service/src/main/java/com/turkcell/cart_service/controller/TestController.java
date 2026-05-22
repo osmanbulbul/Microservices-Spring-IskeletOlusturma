@@ -10,6 +10,6 @@ public class TestController {
 
     @GetMapping("/hello")
     public String helloWorld() {
-        return "Hello World kart servisten olustu.";
+        return "Hello World from Cart Service";
     }
 }
